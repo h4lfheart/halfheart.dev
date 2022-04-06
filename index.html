@@ -1,41 +1,28 @@
 <!DOCTYPE html>
-<html><head>
-  <title>pizza</title>
-   <meta content="Half Website" property="og:title">
-    <meta content="pizza" property="og:description">
-    <meta content="https://halfheart.pizza/" property="og:url">
-  <meta content="https://pbs.twimg.com/profile_images/1467836195220697088/4Y-mTxZJ_400x400.jpg" property="og:image">
-    <meta content="#272740" data-react-helmet="true" name="theme-color">
-  <style type="text/css">
-body {
-  background-color: #000000;
-}
+<html>
+    <head>
+        <title>pizza</title>
+        <meta content="Half's Website" property="og:title">
+        <meta content="pizza" property="og:description">
+        <meta content="https://halfheart.pizza/" property="og:url">
+        <meta content="https://pbs.twimg.com/profile_images/1467836195220697088/4Y-mTxZJ_400x400.jpg" property="og:image">
+        <meta content="#272740" data-react-helmet="true" name="theme-color">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="pizzaButton">PIZZA TIME</button>
+        <audio preload loop id="audioPlay">
+            <source src="pizza.ogg" type="audio/ogg">
+            <embed src="pizza.ogg" loop>
+        </audio>
 
-body, h1, p {
-  font-family:Helvetica;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-size:68px
-}
-
-p {
-  margin: 0 0 10px;
-}
-a {
-  color: #10acff;
-  text-decoration: none;
-}
-</style>
-
-</head>
-<body>
-    <p style="color:white; style=" font-size:560%;"="">half pizza</p>
-
-<a href="https://www.twitter.com/HalfHeart">
-<p style="color:blue; style=" font-size:18px";"="">twitter</p></a>
-                                                  
-<audio controls id="music"><source src="pizza.ogg" type="audio/ogg"></audio>
-
-</body></html>
+        <script>
+            const pizzaButton = document.getElementById("pizzaButton");
+            const audioPlayer = document.getElementById("audioPlay");
+            pizzaButton.addEventListener("click", () => {
+                pizzaButton.parentNode.removeChild(pizzaButton)
+                audioPlayer.play();
+            })
+        </script>
+    </body>
+</html>
