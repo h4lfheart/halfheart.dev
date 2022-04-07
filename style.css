@@ -13,7 +13,7 @@ body {
 }
 
 body, h1, p {
-    font-family:Helvetica;
+    font-family:"Helvetica";
     font-weight: normal;
     font-size:68px;
 }
@@ -32,7 +32,6 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: all .15s ease-out;
 }
 
 button:hover {
@@ -42,4 +41,19 @@ button:hover {
 button:active {
     transform: scale(.95);
     opacity: .5
+}
+
+img {
+    animation-name: scaledTransition;
+    animation-duration: 1s;
+}
+
+@keyframes scaledTransition {
+    0% {
+        transform: scale(0%, 0%);
+    }
+
+    100% {
+        transfomr: scale(100%, 100%);
+    }
 }

@@ -10,10 +10,10 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <button id="pizzaButton">PIZZA TIME</button>
+        <button id="pizzaButton">Groovin?</button>
         <audio preload loop id="audioPlay">
-            <source src="pizza.ogg" type="audio/ogg">
-            <embed src="pizza.ogg" loop>
+            <source src="anne.mp3" type="audio/mp3">
+            <embed src="anne.mp3" loop>
         </audio>
 
         <script>
@@ -22,7 +22,14 @@
             pizzaButton.addEventListener("click", () => {
                 pizzaButton.parentNode.removeChild(pizzaButton)
                 audioPlayer.play();
+                setTimeout(() => {
+                    const ditto = document.createElement("img");
+                    ditto.src = "ditto.gif";
+                    ditto.width = 220;
+                    document.body.append(ditto);
+                }, 5250)
             })
         </script>
+
     </body>
 </html>
