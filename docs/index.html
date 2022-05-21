@@ -12,9 +12,9 @@
     <body>
         <p>
             <span class="greenColor">guest@halfheart.pizza</span><span class="whiteColor">:</span><span class="blueColor">~</span><span class="whiteColor">$</span>
-            </span><span class="darkerWhiteColor">info</span>
+            </span><span class="darkerWhiteColor">banner</span>
         </p>
-        <p style="white-space: pre;">
+        <p style="white-space: break-spaces;">
 ██╗  ██╗ █████╗ ██╗     ███████╗
 ██║  ██║██╔══██╗██║     ██╔════╝
 ███████║███████║██║     █████╗
@@ -30,10 +30,57 @@ Type 'help' to see a list of available commands.
             <input id="prompt" class="consoleInput" type="text" autofocus=True autocomplete="off">
         </p>
         <script>
+            // Events
             document.onmousedown = (e) => {
                 e.preventDefault();
             }
+            const prompt = document.getElementById("prompt");
+            prompt.addEventListener("keyup", function (e) {
+                handleButtonPress(e)
+            })
 
+            // Helper Functions
+            function handleButtonPress(e) {
+                const commandArgs = e.target.value.split(" ")
+                const first = commandArgs[0].toLowerCase()
+                commandArgs.shift()
+                if (!Object.keys(commands).includes(first)) {
+                    e.target.style.color = "#BD0940"
+                } else {
+                    e.target.style.color = "#76AB23"
+                }
+
+                if (e.key == "Enter") {
+                    e.preventDefault()
+                    e.target.style.color = "#DDDDDD"
+                    handleConsoleEntry(e.target.value)
+                }
+            }
+            function handleConsoleEntry(text) {
+                const re = /[\""].+?[\""]|[^ ]+/g
+                const matchArgs = [...text.matchAll(re)]
+                const commandArgs = []
+                for (let arg of matchArgs) {
+                    commandArgs.push(arg.toString().replace(/"([^"]+(?="))"/g, '$1'))
+                }
+                const first = commandArgs[0].toString().toLowerCase()
+                commandArgs.shift()
+
+                let didClear = false
+                if (Object.keys(commands).includes(first)) {
+                    didClear = commands[first]["command"](commandArgs)
+                }
+                else {
+                    const p = document.createElement("p");
+                    p.innerText = first + ": command not found"
+                    document.body.appendChild(p)
+                }
+                if (!didClear) {
+                    document.body.appendChild(document.createElement("br"))
+                    addNewPrompt()
+                }
+
+            }
             function addNewPrompt() {
                 prompt.autofocus = false
                 prompt.blur()
@@ -76,25 +123,60 @@ Type 'help' to see a list of available commands.
                 document.body.appendChild(p)
                 promptBox.focus()
             }
-            function handleButtonPress(e) {
-                if (!Object.keys(helpDict).includes(e.target.value.toLowerCase())) {
-                    e.target.style.color = "#BD0940"
-                } else {
-                    e.target.style.color = "#76AB23"
-                }
-
-                if (e.key == "Enter") {
-                    e.preventDefault()
-                    e.target.style.color = "#DDDDDD"
-                    handleConsoleEntry(e.target.value)
-                }
+            function createConsoleText(text) {
+                const textElement = document.createElement("p");
+                textElement.innerText = text
+                document.body.appendChild(textElement)
+                return textElement
+            }
+            function createLinkText(before, linkUrl, innerText=linkUrl) {
+                const text = createConsoleText(before)
+                const link = document.createElement("a")
+                link.innerText = innerText
+                link.href = linkUrl
+                link.target = "_blank"
+                text.appendChild(link)
             }
 
-            const prompt = document.getElementById("prompt");
-            prompt.addEventListener("keyup", function (e) {
-                handleButtonPress(e)
-            })
+            const homeFolder = {
+                "fortniteporting": {
+                    "data": "https://github.com/halfuwu/FortnitePorting2",
+                    "type": "directoryExt"
+                },
+                "readme.txt": {
+                    "data": `Thanks for using Half's desktop!
+                    Please don't open any files that arent yours, thanks!`,
+                    "type": "file"
+                },
+                "crepe.txt": {
+                    "data": `Crêpe Recipe:
 
+                    Ingredients:
+                    - 2 Large Eggs
+                    - 1 Cup of Milk
+                    - 1/3 Cup of Water
+                    - 1 Cup of All-Purpose Flour (Preferably Bleached)
+                    - 2 Tablespoons of Sugar
+                    - 1 Teaspoon of Vanilla Extract
+                    - 2 Tablespoons of Melted Butter + 2-3 Teaspoons for Greasing the Pan
+
+                    Instructions:
+                    In a blender or food processor, blend the eggs, milk, water, flour, sugar, vanilla, and the 2 tablespoons of melted butter for 5 seconds, or until smooth.
+
+Stir down and repeat, if necessary. Gently stir the batter if it has separated.
+
+Heat a 6 or 7 inch nonstick crêpe pan over medium-high heat until hot. (Use a 9 or 10 inch pan for larger crêpes)
+
+Wipe the pan lightly with butter, lift the pan from the heat, and pour in 2 to 3 tablespoons of batter`,
+                    "type": "file"
+                },
+
+            }
+
+            let currentDirectory = "/home/guest"
+            let currentFolder = homeFolder
+
+            // Commands
             function displayInfo() {
                 const info = document.createElement("p")
                 info.style.whiteSpace = "pre"
@@ -109,71 +191,154 @@ Type 'help' to see a list of available commands.
 Type 'help' to see a list of available commands.`
                 document.body.appendChild(info)
             }
-
-            const helpDict = {
-                "info": function(args) {
-                    displayInfo()
-                },
-
-                "discord": function(args) {
-                    const discord = document.createElement("p");
-                    discord.innerText = "Opening Discord Invite..."
-                    document.body.appendChild(discord)
-                    open("https://discord.gg/DZ5YFXdBA6")
-                },
-
-                "fortniteporting": function(args) {
-                    const porting = document.createElement("p");
-                    porting.innerText = "Downloading Fortnite Porting..."
-                    document.body.appendChild(porting)
-                    open("https://www.halfheart.pizza/FortnitePorting.zip")
-                },
-
-                "help": function(args) {
-                    const help = document.createElement("p");
-                    help.innerText = "Available Commands:"
-                    for (const command of Object.keys(helpDict)) {
-                        help.appendChild(document.createElement("br"))
-                        help.appendChild(document.createTextNode(command))
+            const commands = {
+                // Web Related
+                "help": {
+                    "command": function(a) {
+                        createConsoleText(`
+                        Available Commands:
+                        about
+                        banner
+                        clear
+                        discord
+                        echo
+                        github
+                        gui
+                        help
+                        projects
+                        repo
+                        twitter
+                        whoami
+                        `)
                     }
-                    document.body.appendChild(help)
+                },
+                "banner": {
+                    "command": function(a) {
+                        displayInfo()
+                    },
+                },
+                "about": {
+                    "command": function(a) {
+                        createConsoleText(`I am Half, a Hobbiest Fortnite Artist and Aspiring Developer
+                        `)
+                    },
+                },
+                "twitter": {
+                    "command": function(a) {
+                        open("https://www.twitter.com/HalfHeart")
+                    },
+                },
+                "discord": {
+                    "command": function(a) {
+                        open("https://discord.gg/DZ5YFXdBA6")
+                    },
+                },
+                "projects": {
+                    "command": function(a) {
+                        createLinkText("FortnitePorting - ", "https://github.com/halfuwu/FortnitePorting2")
+                        createLinkText("UnrealUmap - ", "https://github.com/halfuwu/UnrealUmap")
+                        createLinkText("UnrealPSKPSA - ", "https://github.com/halfuwu/UnrealPSKPSA")
+                        createLinkText("Pythordle - ", "https://github.com/halfuwu/Pythordle")
+                    },
+                },
+                "github": {
+                    "command": function(a) {
+                        open("https://github.com/halfuwu")
+                    },
+                },
+                "repo": {
+                    "command": function(a) {
+                        open("https://github.com/halfuwu/halfheart.pizza")
+                    },
                 },
 
-                "echo": function(args) {
-                    const echo = document.createElement("p");
-                    echo.innerText = args.toString().replace(",", " ")
-                    document.body.appendChild(echo)
+                // Fun Linux Stuff
+                "echo": {
+                    "command": function(a) {
+                        let builtString = ""
+                        for (const arg of a) {
+                            builtString += arg + " "
+                        }
+                        builtString.trim()
+                        createConsoleText(builtString)
+                    }
+                },
+                "pwd": {
+                    "command": function(a) {
+                        createConsoleText(currentDirectory)
+                    }
+                },
+                "ls": {
+                    "command": function(a) {
+                        for (const file of Object.keys(currentFolder))
+                            createConsoleText(file)
+                    }
+                },
+                "cd": {
+                    "command": function(a) {
+                        if (a.length == 0) {
+                            currentFolder = homeFolder
+                            currentDirectory = "/home/guest"
+                            return;
+                        }
+                        const name = a[0].replace("/home/guest/", "")
+                        if (!Object.keys(currentFolder).includes(name)){
+                            createConsoleText(`cd: ${name}: No such file or directory`)
+                            return
+                        }
+
+                        if (currentFolder[name]["type"].includes("file")) {
+                            createConsoleText(`cd: ${name}: Not a directory`)
+                            return
+                        }
+
+                        if (currentFolder[name]["type"] == "directoryExt") {
+                            open(currentFolder[name]["data"])
+                            return
+                        }
+
+                        currentFolder = currentFolder[name]["data"]
+                        currentDirectory += "/" + name
+
+                    }
+                },
+                "cat": {
+                    "command": function(a) {
+                        const name = a[0]
+
+                        if (!Object.keys(currentFolder).includes(name)){
+                            createConsoleText(`cat: ${name}: No such file or directory`)
+                            return
+                        }
+
+                        if (currentFolder[name]["type"].includes("directory")) {
+                            createConsoleText(`cat: ${name}: Is a directory`)
+                            return
+                        }
+
+                        createConsoleText(currentFolder[name]["data"])
+                    }
                 },
 
-                "twitter": function(args) {
-                    const twitter = document.createElement("p");
-                    twitter.innerText = "Opening Twitter..."
-                    document.body.appendChild(twitter)
-                    open("https://www.twitter.com/HalfHeart")
+                "whoami": {
+                    "command": function(a) {
+                        createConsoleText("guest")
+                    }
                 },
-
-                "whoami": function(args) {
-                    const whoami = document.createElement("p");
-                    whoami.innerText = "guest"
-                    document.body.appendChild(whoami)
+                "hostname": {
+                    "command": function(a) {
+                        createConsoleText("halfheart.pizza")
+                    }
+                },
+                "clear": {
+                    "command": function(a) {
+                        document.body.innerHTML = ""
+                        addNewPrompt()
+                        return true
+                    }
                 }
             }
-            function handleConsoleEntry(text) {
-                const commandArgs = text.split(" ")
-                const first = commandArgs[0].toLowerCase()
-                commandArgs.shift()
 
-                if (Object.keys(helpDict).includes(first)) {
-                    helpDict[first](commandArgs)
-                }
-                else {
-                    const p = document.createElement("p");
-                    p.innerText = first + ": command not found"
-                    document.body.appendChild(p)
-                }
-                document.body.appendChild(document.createElement("br"))
-                addNewPrompt()
-            }
 
         </script>
     </body>
