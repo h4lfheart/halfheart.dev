@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'CascadiaCode';
+    src: url('assets/fonts/CascadiaCode.ttf') format('truetype');
+}
+
+html{
+    background-color: #772953
+}
+
+p {
+    font-family: CascadiaCode;
+    color: #DDDDDD;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.greenColor {
+    color: #76AB23;
+}
+
+.whiteColor {
+    color: #FFFFFF;
+}
+
+.blueColor {
+    color: #80c8ff;
+}
+
+.darkerWhiteColor {
+    color: #DDDDDD;
+}
+
+.redColor {
+    color: #BD0940
+}
+
+.consoleInput {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    font-family: CascadiaCode;
+    font-size: 16px;
+    color: #DDDDDD;
+    #caret-color: transparent;
+
+}

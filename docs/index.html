@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Half's Website</title>
+        <meta charset="utf-8">
+        <meta content="Half's Website" property="og:title">
+        <meta content="https://halfheart.pizza/" property="og:url">
+        <meta content="https://pbs.twimg.com/profile_images/1467836195220697088/4Y-mTxZJ_400x400.jpg" property="og:image">
+        <meta content="#272740" data-react-helmet="true" name="theme-color">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>
+            <span class="greenColor">guest@halfheart.pizza</span><span class="whiteColor">:</span><span class="blueColor">~</span><span class="whiteColor">$</span>
+            </span><span class="darkerWhiteColor">info</span>
+        </p>
+        <p style="white-space: pre;">
+██╗  ██╗ █████╗ ██╗     ███████╗
+██║  ██║██╔══██╗██║     ██╔════╝
+███████║███████║██║     █████╗
+██╔══██║██╔══██║██║     ██╔══╝
+██║  ██║██║  ██║███████╗██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝
+
+Type 'help' to see a list of available commands.
+        </p>
+
+        <p>
+            <span class="greenColor">guest@halfheart.pizza</span><span class="whiteColor">:</span><span class="blueColor">~</span><span class="whiteColor">$</span>
+            <input id="prompt" class="consoleInput" type="text" autofocus=True autocomplete="off">
+        </p>
+        <script>
+            document.onmousedown = (e) => {
+                e.preventDefault();
+            }
+
+            function addNewPrompt() {
+                prompt.autofocus = false
+                prompt.blur()
+                const p = document.createElement("p");
+                const user = document.createElement("span")
+                user.className = "greenColor"
+                user.innerText = "guest@halfheart.pizza"
+                p.appendChild(user)
+
+                const colon = document.createElement("span")
+                colon.className = "whiteColor"
+                colon.innerText = ":"
+                p.appendChild(colon)
+
+                const squiggle = document.createElement("span")
+                squiggle.className = "blueColor"
+                squiggle.innerText = "~"
+                p.appendChild(squiggle)
+
+                const dollar = document.createElement("span")
+                dollar.className = "whiteColor"
+                dollar.innerText = "$"
+                p.appendChild(dollar)
+
+                const empty = document.createElement("span")
+                empty.innerText = " "
+                p.appendChild(empty)
+
+                const promptBox = document.createElement("input")
+                promptBox.id = "prompt"
+                promptBox.className = "consoleInput"
+                promptBox.type = "text"
+                promptBox.autofocus = true
+                promptBox.autocomplete = "off"
+                promptBox.addEventListener("keyup", function (e) {
+                    handleButtonPress(e)
+                })
+                p.appendChild(promptBox)
+
+                document.body.appendChild(p)
+                promptBox.focus()
+            }
+            function handleButtonPress(e) {
+                if (!Object.keys(helpDict).includes(e.target.value.toLowerCase())) {
+                    e.target.style.color = "#BD0940"
+                } else {
+                    e.target.style.color = "#76AB23"
+                }
+
+                if (e.key == "Enter") {
+                    e.preventDefault()
+                    e.target.style.color = "#DDDDDD"
+                    handleConsoleEntry(e.target.value)
+                }
+            }
+
+            const prompt = document.getElementById("prompt");
+            prompt.addEventListener("keyup", function (e) {
+                handleButtonPress(e)
+            })
+
+            function displayInfo() {
+                const info = document.createElement("p")
+                info.style.whiteSpace = "pre"
+                info.innerText = `
+██╗  ██╗ █████╗ ██╗     ███████╗
+██║  ██║██╔══██╗██║     ██╔════╝
+███████║███████║██║     █████╗
+██╔══██║██╔══██║██║     ██╔══╝
+██║  ██║██║  ██║███████╗██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝
+
+Type 'help' to see a list of available commands.`
+                document.body.appendChild(info)
+            }
+
+            const helpDict = {
+                "info": function(args) {
+                    displayInfo()
+                },
+
+                "discord": function(args) {
+                    const discord = document.createElement("p");
+                    discord.innerText = "Opening Discord Invite..."
+                    document.body.appendChild(discord)
+                    open("https://discord.gg/DZ5YFXdBA6")
+                },
+
+                "fortniteporting": function(args) {
+                    const porting = document.createElement("p");
+                    porting.innerText = "Downloading Fortnite Porting..."
+                    document.body.appendChild(porting)
+                    open("https://www.halfheart.pizza/FortnitePorting.zip")
+                },
+
+                "help": function(args) {
+                    const help = document.createElement("p");
+                    help.innerText = "Available Commands:"
+                    for (const command of Object.keys(helpDict)) {
+                        help.appendChild(document.createElement("br"))
+                        help.appendChild(document.createTextNode(command))
+                    }
+                    document.body.appendChild(help)
+                },
+
+                "echo": function(args) {
+                    const echo = document.createElement("p");
+                    echo.innerText = args.toString().replace(",", " ")
+                    document.body.appendChild(echo)
+                },
+
+                "twitter": function(args) {
+                    const twitter = document.createElement("p");
+                    twitter.innerText = "Opening Twitter..."
+                    document.body.appendChild(twitter)
+                    open("https://www.twitter.com/HalfHeart")
+                },
+
+                "whoami": function(args) {
+                    const whoami = document.createElement("p");
+                    whoami.innerText = "guest"
+                    document.body.appendChild(whoami)
+                }
+            }
+            function handleConsoleEntry(text) {
+                const commandArgs = text.split(" ")
+                const first = commandArgs[0].toLowerCase()
+                commandArgs.shift()
+
+                if (Object.keys(helpDict).includes(first)) {
+                    helpDict[first](commandArgs)
+                }
+                else {
+                    const p = document.createElement("p");
+                    p.innerText = first + ": command not found"
+                    document.body.appendChild(p)
+                }
+                document.body.appendChild(document.createElement("br"))
+                addNewPrompt()
+            }
+
+        </script>
+    </body>
+
+</html>
