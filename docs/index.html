@@ -10,11 +10,12 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <p>
-            <span class="greenColor">guest@halfheart.pizza</span><span class="whiteColor">:</span><span class="blueColor">~</span><span class="whiteColor">$</span>
-            </span><span class="darkerWhiteColor">banner</span>
-        </p>
-        <p style="white-space: break-spaces;">
+        <div id="mainContainer">
+            <p>
+                <span class="greenColor">guest@halfheart.pizza</span><span class="whiteColor">:</span><span class="blueColor">~</span><span class="whiteColor">$</span>
+                </span><span class="darkerWhiteColor">banner</span>
+            </p>
+            <p style="white-space: break-spaces;">
 ██╗  ██╗ █████╗ ██╗     ███████╗
 ██║  ██║██╔══██╗██║     ██╔════╝
 ███████║███████║██║     █████╗
@@ -23,19 +24,28 @@
 ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝
 
 Type 'help' to see a list of available commands.
-        </p>
+            </p>
 
-        <p>
-            <span class="greenColor">guest@halfheart.pizza</span><span class="whiteColor">:</span><span class="blueColor">~</span><span class="whiteColor">$</span>
-            <input id="prompt" class="consoleInput" type="text" autofocus=True autocomplete="off">
-        </p>
+            <p>
+                <span class="greenColor">guest@halfheart.pizza</span><span class="whiteColor">:</span><span class="blueColor">~</span><span class="whiteColor">$</span>
+                <input id="prompt" class="consoleInput" type="text" autofocus=True autocomplete="off">
+            </p>
+
+        </div>
         <script>
+            let didInitAudio = false
+            const main = document.getElementById("mainContainer")
+            window.onclick = function() {
+                tryStartAudio()
+            }
+
             // Events
             document.onmousedown = (e) => {
                 e.preventDefault();
             }
             const prompt = document.getElementById("prompt");
             prompt.addEventListener("keyup", function (e) {
+                tryStartAudio()
                 handleButtonPress(e)
             })
 
@@ -53,6 +63,7 @@ Type 'help' to see a list of available commands.
                 if (e.key == "Enter") {
                     e.preventDefault()
                     e.target.style.color = "#DDDDDD"
+                    e.target.readOnly = true
                     handleConsoleEntry(e.target.value)
                 }
             }
@@ -73,17 +84,16 @@ Type 'help' to see a list of available commands.
                 else {
                     const p = document.createElement("p");
                     p.innerText = first + ": command not found"
-                    document.body.appendChild(p)
+                    main.appendChild(p)
                 }
                 if (!didClear) {
-                    document.body.appendChild(document.createElement("br"))
+
+                    main.appendChild(document.createElement("br"))
                     addNewPrompt()
                 }
 
             }
             function addNewPrompt() {
-                prompt.autofocus = false
-                prompt.blur()
                 const p = document.createElement("p");
                 const user = document.createElement("span")
                 user.className = "greenColor"
@@ -120,13 +130,13 @@ Type 'help' to see a list of available commands.
                 })
                 p.appendChild(promptBox)
 
-                document.body.appendChild(p)
+                main.appendChild(p)
                 promptBox.focus()
             }
             function createConsoleText(text) {
                 const textElement = document.createElement("p");
                 textElement.innerText = text
-                document.body.appendChild(textElement)
+                main.appendChild(textElement)
                 return textElement
             }
             function createLinkText(before, linkUrl, innerText=linkUrl) {
@@ -136,6 +146,17 @@ Type 'help' to see a list of available commands.
                 link.href = linkUrl
                 link.target = "_blank"
                 text.appendChild(link)
+            }
+            function tryStartAudio() {
+                if (!didInitAudio) {
+                    const audio = document.createElement("audio")
+                    audio.autoplay = true
+                    audio.loop = true
+                    audio.src = "assets/sounds/bgm.wav"
+                    document.body.appendChild(audio)
+                    audio.play()
+                    didInitAudio = true
+                }
             }
 
             const homeFolder = {
@@ -148,7 +169,7 @@ Type 'help' to see a list of available commands.
                     Please don't open any files that arent yours, thanks!`,
                     "type": "file"
                 },
-                "crepe.txt": {
+                "crepes.txt": {
                     "data": `Crêpe Recipe:
 
                     Ingredients:
@@ -189,7 +210,7 @@ Wipe the pan lightly with butter, lift the pan from the heat, and pour in 2 to 3
 ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝
 
 Type 'help' to see a list of available commands.`
-                document.body.appendChild(info)
+                main.appendChild(info)
             }
             const commands = {
                 // Web Related
@@ -198,16 +219,24 @@ Type 'help' to see a list of available commands.`
                         createConsoleText(`
                         Available Commands:
                         about
+                        art
                         banner
                         clear
                         discord
-                        echo
                         github
                         gui
                         help
                         projects
                         repo
                         twitter
+
+                        Linux Commands:
+                        cat
+                        cd
+                        echo
+                        hostname
+                        ls
+                        pwd
                         whoami
                         `)
                     }
@@ -304,6 +333,10 @@ Type 'help' to see a list of available commands.`
                 },
                 "cat": {
                     "command": function(a) {
+                        if (a.length == 0) {
+                            createConsoleText(`cat: usage: <filename>`)
+                            return
+                        }
                         const name = a[0]
 
                         if (!Object.keys(currentFolder).includes(name)){
@@ -332,7 +365,7 @@ Type 'help' to see a list of available commands.`
                 },
                 "clear": {
                     "command": function(a) {
-                        document.body.innerHTML = ""
+                        main.innerHTML = ""
                         addNewPrompt()
                         return true
                     }
