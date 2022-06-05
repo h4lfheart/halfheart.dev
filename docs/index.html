@@ -2,8 +2,9 @@
 <html>
     <head>
         <title>Half's Website</title>
+        <link rel="icon" href="https://pbs.twimg.com/profile_images/1467836195220697088/4Y-mTxZJ_400x400.jpg">
         <meta charset="utf-8">
-        <meta content="Half's Website" property="og:title">
+        <meta content="HalfHeart | Home" property="og:title">
         <meta content="https://halfheart.pizza/" property="og:url">
         <meta content="https://pbs.twimg.com/profile_images/1467836195220697088/4Y-mTxZJ_400x400.jpg" property="og:image">
         <meta content="#272740" data-react-helmet="true" name="theme-color">
@@ -150,6 +151,7 @@ Type 'help' to see a list of available commands.
             function tryStartAudio() {
                 if (!didInitAudio) {
                     const audio = document.createElement("audio")
+                    audio.volume = 0.1
                     audio.autoplay = true
                     audio.loop = true
                     audio.src = "assets/sounds/bgm.wav"
@@ -248,8 +250,14 @@ Type 'help' to see a list of available commands.`
                 },
                 "about": {
                     "command": function(a) {
-                        createConsoleText(`I am Half, a Hobbiest Fortnite Artist and Aspiring Developer
-                        `)
+                        createConsoleText(`
+                        Hey there I'm Half!
+
+                        I'm a hobbyist Fortnite artist and aspiring developer based out of Pennsylvania.
+
+                        I love working on splash art for Fortnite and coding other projects on the side like what you're seeing here now!
+
+                        I hope you enjoy looking around my website and seeing all that it has to offer :D`)
                     },
                 },
                 "twitter": {
