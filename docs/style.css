@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'CascadiaCode';
+    src: url('assets/fonts/CascadiaCode.ttf') format('truetype');
+}
+
+html {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    color: rgba(255,255,255,1);
+    background-color: rgb(25,25,25);
+
+    font-family: "CascadiaCode", monospace;
+    caret-color: transparent
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    color: #AAA
+}
+
+.center {
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
