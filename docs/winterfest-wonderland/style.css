@@ -97,3 +97,18 @@ a {
     width: 100%;
     text-align: center;
 }
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.snowflake {
+    position: fixed;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    width: 25px;
+}
