@@ -1,4 +1,5 @@
 {
-  "Version": "1.0.0",
-  "DownloadURL": "https://halfheart.pizza/fortnite-porting/stable.json"
+  "Version": "1.0.1",
+  "DownloadURL": "https://halfheart.pizza/fortnite-porting/stable.zip",
+  "Changelog": "This is the first test of the in-program updater! There's nothing new here except for a cool 1.0.1 in the top left corner :)"
 }
