@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.0",
+  "Version": "1.0.2",
   "DownloadURL": "https://halfheart.pizza/fortnite-porting/experimental.zip",
-  "Changelog": "Downgrade back to v1.0.0"
+  "Changelog": "- Fixes Plugin Update Issue\n- Fixes Search Issue with Invalid Match Parameters"
 }
