@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "DownloadURL": "https://halfheart.pizza/fortnite-porting/experimental.zip",
-  "Changelog": "- Fixes Plugin Update Issue\n- Fixes Search Issue with Invalid Match Parameters"
+  "Changelog": "- Light Mode\n- Moved Check for Updates to Main Menu\n- Context Menu Action to Save Asset Icon to Clipboard\n- Update Timeline Range Switch for Emotes (Import Settings)\n- Minor Bug Fixes"
 }

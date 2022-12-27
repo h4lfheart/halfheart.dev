@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.3",
   "DownloadURL": "https://halfheart.pizza/fortnite-porting/stable.zip",
-  "Changelog": "This is the first test of the in-program updater! There's nothing new here except for a cool v1.0.1 in the top left corner :)"
+  "Changelog": "- Light Mode\n- Moved Check for Updates to Main Menu\n- Context Menu Action to Save Asset Icon to Clipboard\n- Update Timeline Range Switch for Emotes (Import Settings)\n- Minor Bug Fixes"
 }
