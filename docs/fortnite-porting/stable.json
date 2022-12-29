@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "DownloadURL": "https://halfheart.pizza/fortnite-porting/stable.zip",
-  "Changelog": "- Light Mode\n- Moved Check for Updates to Main Menu\n- Context Menu Action to Save Asset Icon to Clipboard\n- Update Timeline Range Switch for Emotes (Import Settings)\n- Minor Bug Fixes"
+  "Changelog": "- Steam Blender Support\n- Explicit Sync Plugin Button\n- Skin Color Corrections"
 }
