@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.5",
   "DownloadURL": "https://halfheart.pizza/fortnite-porting/experimental.zip",
-  "Changelog": "- Light Mode\n- Moved Check for Updates to Main Menu\n- Context Menu Action to Save Asset Icon to Clipboard\n- Update Timeline Range Switch for Emotes (Import Settings)\n- Minor Bug Fixes"
+  "Changelog": "GENERAL:\n- Level of Detail Selection (LOD 0-4)\n- Scale Down to cm Option (On by default)\n- Import Into Collections Option\n\nANIMATION:\n- Lobby Pose Import\n- Update Timeline Range Option\n"
 }
