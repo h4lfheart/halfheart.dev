@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "DownloadURL": "https://halfheart.pizza/fortnite-porting/experimental.zip",
   "Changelog": "\nBREAKING:\n-Change FortniteCentral Endpoint URL\n\nGENERAL:\n- Level of Detail Selection (LOD 0-4)\n- Scale Down to cm Option (On by default)\n- Import Into Collections Option\n\nANIMATION:\n- Lobby Pose Import\n- Update Timeline Range Option\n"
 }
