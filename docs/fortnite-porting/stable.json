@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.8",
   "DownloadURL": "https://halfheart.pizza/fortnite-porting/stable.zip",
-  "Changelog": "\nBREAKING:\n-Change FortniteCentral Endpoint URL\n\nGENERAL:\n- Level of Detail Selection (LOD 0-4)\n- Scale Down to cm Option (On by default)\n- Import Into Collections Option\n\nANIMATION:\n- Lobby Pose Import\n- Update Timeline Range Option\n"
+  "Changelog": "\nTHE ANIMATION OVERHAUL UPDATE:\nA complete overhaul of the animation system has been worked on. Facial animations/controls, montage sections, sounds, and props are now supported.\n\nNEW FEATURES:\n\n- Facial Controls/Animations\n- Cell Shaded Character Support\n- Targa (.tga) Image Export Support\n- Manual Tasty Rigger (Blender Viewport Sidebar)\n- Pets Tab"
 }
