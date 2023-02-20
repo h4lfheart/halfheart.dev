@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.8",
+  "Version": "1.0.9",
   "DownloadURL": "https://halfheart.pizza/fortnite-porting/experimental.zip",
-  "Changelog": "\nTHE ANIMATION OVERHAUL UPDATE:\nA complete overhaul of the animation system has been worked on. Facial animations/controls, montage sections, sounds, and props are now supported.\n\nNEW FEATURES:\n\n- Facial Controls/Animations\n- Cell Shaded Character Support\n- Targa (.tga) Image Export Support\n- Manual Tasty Rigger (Blender Viewport Sidebar)\n- Pets Tab"
+  "Changelog": "\nNEW FEATURES:\n-Mesh Tab: Allows the exporting of any mesh in the game using either a folder view or flat view to navigate.\n-Filters: Added advanced filters for singling out certain types of assets\n-Favoriting: Press Ctrl+F while selecting an asset to favorite that asset. You can filter by favorites now as well.\n-HeightMap Exporter: Located in the tools tab. Exports heightmap, normalmap, and weightmap textures for the BR map.\n-Manual Blender Version: You can now add a blender version number manually to the Sync Plugin window.\n"
 }
