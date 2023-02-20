@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.0",
+  "Version": "1.1.1",
   "DownloadURL": "https://halfheart.pizza/fortnite-porting/experimental.zip",
   "Changelog": "\nNEW FEATURES:\n-Mesh Tab: Allows the exporting of any mesh in the game using either a folder view or flat view to navigate.\n-Filters: Added advanced filters for singling out certain types of assets\n-Favoriting: Press Ctrl+F while selecting an asset to favorite that asset. You can filter by favorites now as well.\n-HeightMap Exporter: Located in the tools tab. Exports heightmap, normalmap, and weightmap textures for the BR map.\n-Manual Blender Version: You can now add a blender version number manually to the Sync Plugin window.\n"
 }
