@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.2.2",
+  "Version": "1.1.2.3",
   "DownloadURL": "https://halfheart.pizza/fortnite-porting/experimental.zip",
-  "Changelog": "\nMANDATORY FIX:\n\n- This update must be downloaded due to the change in the AES and Mappings endpoints. If you do not update the program will stop working."
+  "Changelog": "Revert April Fools Update :)"
 }
