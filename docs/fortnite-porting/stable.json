@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.1",
+  "Version": "1.2.2",
   "DownloadURL": "https://halfheart.pizza/fortnite-porting/stable.zip",
-  "Changelog": "Fixes some bugs with the new UI, mainly in Settings and Startup"
+  "Changelog": "Fixes Low Resolution Textures and Some New UI Bugs"
 }
