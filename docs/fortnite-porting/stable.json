@@ -1,5 +1,5 @@
 {
-  "Version": "1.2.2",
-  "DownloadURL": "https://halfheart.dev/fortnite-porting/stable.zip",
-  "Changelog": "Fixes Low Resolution Textures and Some New UI Bugs"
+  "Version": "1.3.0",
+  "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/stable.zip",
+  "Changelog": "A completely new UI is here!! Organized to be more efficient, the new interface is a lot more sleek and looks nicer :)"
 }
