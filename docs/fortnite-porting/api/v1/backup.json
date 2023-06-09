@@ -5,15 +5,17 @@
     "mainKey": "0x94d247d35318564a3c74ab30b4e692ee5b9a09035326852abbd9312215a3e310",
     "dynamicKeys": []
   },
-  "Mappings": {
-    "url": "https://halfheart.dev/fortnite-porting/api/v1/mappings/FortniteRelease-25.00-CL-25695576-Android_oo.usmap",
-    "fileName": "FortniteRelease-25.00-CL-25695576-Android_oo.usmap",
-    "length": "1171464",
-    "uploaded": "2023-06-09T11:37:00Z",
-    "meta": {
-      "version": "++Fortnite+Release-25.00-CL-25695576-Android",
-      "compressionMethod": "Oodle",
-      "platform": "Android"
+  "Mappings": [
+    {
+      "url": "https://halfheart.dev/fortnite-porting/api/v1/mappings/FortniteRelease-25.00-CL-25695576-Android_oo.usmap",
+      "fileName": "FortniteRelease-25.00-CL-25695576-Android_oo.usmap",
+      "length": "1171464",
+      "uploaded": "2023-06-09T11:37:00Z",
+      "meta": {
+        "version": "++Fortnite+Release-25.00-CL-25695576-Android",
+        "compressionMethod": "Oodle",
+        "platform": "Android"
+      }
     }
-  }
+  ]
 }
