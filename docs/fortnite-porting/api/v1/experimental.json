@@ -1,5 +1,5 @@
 {
-  "Version": "1.3.4",
-  "Changelog": "- Wildlife Tab\n- TextureData Support for Props\n- Color Swatch Support\n- Enable/Disable Weapon and Prop Loading Filters\n- Add Settings Button to Loading Screen\n- Fixes for Fortnite 25.10",
+  "Version": "1.3.5",
+  "Changelog": "- Added Heightmap Exporter Back\n- Hopefully Bug Fixes",
   "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/stable.zip"
 }
