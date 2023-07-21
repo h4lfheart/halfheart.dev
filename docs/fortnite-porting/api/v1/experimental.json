@@ -1,5 +1,5 @@
 {
-  "Version": "1.3.5",
-  "Changelog": "- Added Heightmap Exporter Back\n- Hopefully Bug Fixes",
+  "Version": "1.4.0",
+  "Changelog": "- Unreal Plugin Sync\n- Trap Tab\n- Loading Screen Tab\n- Gadgets Added to Items Tab\n- Llama Added to Wildlife Tab\n- VGMStream Bug Fix",
   "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/stable.zip"
 }
