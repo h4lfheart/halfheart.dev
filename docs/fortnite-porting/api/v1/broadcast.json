@@ -1,6 +1,6 @@
 {
-  "PushedTime": "2023-06-09T11:01:21.7388213Z",
-  "Title": "Fortnite 25.00 Issues",
-  "Contents": "Happy update day everyone!! As I'm sure you're aware the new season broke some stuff that's out of my control and scope so FortnitePorting will not work for a bit. There will hopefully be an update later today so please be patient!! :D",
-  "IsActive": false
+  "PushedTime": "2023-07-26T08:15:21.7388213Z",
+  "Title": "Fortnite 25.20 Issues",
+  "Contents": "Happy update day everyone!! FortnitePorting is currently not working after the new update. Please be patient for the AES and Mappings endpoints to be updated.",
+  "IsActive": true
 }
