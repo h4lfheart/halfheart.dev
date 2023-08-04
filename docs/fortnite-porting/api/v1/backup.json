@@ -1,18 +1,128 @@
 {
-  "IsActive": false,
+  "IsActive": true,
   "AES": {
-    "version": "25.00",
-    "mainKey": "0x94d247d35318564a3c74ab30b4e692ee5b9a09035326852abbd9312215a3e310",
-    "dynamicKeys": []
+    "version": "25.20",
+    "mainKey": "0x509E207822450F59C2CB383871FE947090F8C9516BA1124793F58931DA715024",
+    "dynamicKeys": [
+      {
+        "name": "pakchunk1000-WindowsClient.utoc",
+        "key": "0x52B2F105EAE9E737A83091DA5E362A01EBCD48D3F625C7BCB06DB3AA7BCEF8D4",
+        "guid": "2E03F4DA95202509D578A5960D35A8A3",
+        "keychain": "2E03F4DA95202509D578A5960D35A8A3:UrLxBerp5zeoMJHaXjYqAevNSNP2Jce8sG2zqnvO+NQ=",
+        "fileCount": 22,
+        "hasHighResTextures": false,
+        "size": {
+          "raw": 2628485,
+          "formatted": "2.5 MB"
+        }
+      },
+      {
+        "name": "pakchunk1002-WindowsClient.utoc",
+        "key": "0x06410F950EDB099A284B0B751C86C65C89BB2F2855904778CE0E1650626F693E",
+        "guid": "4ECF5AAA0161B01630EC04541290F986",
+        "keychain": "4ECF5AAA0161B01630EC04541290F986:BkEPlQ7bCZooSwt1HIbGXIm7LyhVkEd4zg4WUGJvaT4=",
+        "fileCount": 460,
+        "hasHighResTextures": true,
+        "size": {
+          "raw": 21664187,
+          "formatted": "20.7 MB"
+        }
+      },
+      {
+        "name": "pakchunk1003-WindowsClient.utoc",
+        "key": "0xC245995BDAED04F6527B0DC33F9F77C8F1562943515D5C15979C141A1FAB2C1D",
+        "guid": "57F31C09F360B5B96F6BF142E1E6A094",
+        "keychain": "57F31C09F360B5B96F6BF142E1E6A094:wkWZW9rtBPZSew3DP593yPFWKUNRXVwVl5wUGh+rLB0=",
+        "fileCount": 24,
+        "hasHighResTextures": false,
+        "size": {
+          "raw": 906439,
+          "formatted": "885.2 KB"
+        }
+      },
+      {
+        "name": "pakchunk1004-WindowsClient.utoc",
+        "key": "0x147139E3459B707B2A44E317B7513745021B28482E1BE4D54DD3ABE08192B25A",
+        "guid": "5AD8A96807B87D5E2D91EF7714A5432A",
+        "keychain": "5AD8A96807B87D5E2D91EF7714A5432A:FHE540WbcHsqROMXt1E3RQIbKEguG+TVTdOr4IGSslo=",
+        "fileCount": 24,
+        "hasHighResTextures": false,
+        "size": {
+          "raw": 1287687,
+          "formatted": "1.2 MB"
+        }
+      },
+      {
+        "name": "pakchunk1005-WindowsClient.utoc",
+        "key": "0x9034DB376C9164023010442C176CE8270761B6C2B495C6F9CC4BA89FBBF38AE9",
+        "guid": "7F2E96A8331098ACD5BB8DC29D4A3F57",
+        "keychain": "7F2E96A8331098ACD5BB8DC29D4A3F57:kDTbN2yRZAIwEEQsF2zoJwdhtsK0lcb5zEuon7vziuk=",
+        "fileCount": 86,
+        "hasHighResTextures": true,
+        "size": {
+          "raw": 2752341,
+          "formatted": "2.6 MB"
+        }
+      },
+      {
+        "name": "pakchunk1006-WindowsClient.utoc",
+        "key": "0xB07B6E4565C7F72AD69F08CB85621217EEFE1565F26A186EF7A47D9D36E3952C",
+        "guid": "B7E28BEF6DBEF8710E68B66900B42430",
+        "keychain": "B7E28BEF6DBEF8710E68B66900B42430:sHtuRWXH9yrWnwjLhWISF+7+FWXyahhu96R9nTbjlSw=",
+        "fileCount": 28,
+        "hasHighResTextures": false,
+        "size": {
+          "raw": 1608411,
+          "formatted": "1.5 MB"
+        }
+      },
+      {
+        "name": "pakchunk1007-WindowsClient.utoc",
+        "key": "0xCBB5C2CC20A295BD50F9394BB53DAC40202BCADD60219F4F3C8D9DB5BE708629",
+        "guid": "CE60A61FBEAC33EBF231E79C6BBB3D19",
+        "keychain": "CE60A61FBEAC33EBF231E79C6BBB3D19:y7XCzCCilb1Q+TlLtT2sQCAryt1gIZ9PPI2dtb5whik=",
+        "fileCount": 134,
+        "hasHighResTextures": true,
+        "size": {
+          "raw": 9742053,
+          "formatted": "9.3 MB"
+        }
+      },
+      {
+        "name": "pakchunk1008-WindowsClient.utoc",
+        "key": "0x5F149D17C16F53A4CF98C8366452DCC4F5C5CA89B7B3921C0E9485CFCADC75F4",
+        "guid": "DB982042FC23E63A912CF079BB11B4D7",
+        "keychain": "DB982042FC23E63A912CF079BB11B4D7:XxSdF8FvU6TPmMg2ZFLcxPXFyom3s5IcDpSFz8rcdfQ=",
+        "fileCount": 28,
+        "hasHighResTextures": false,
+        "size": {
+          "raw": 1580219,
+          "formatted": "1.5 MB"
+        }
+      }
+    ],
+    "unloaded": [
+      {
+        "name": "pakchunk1001-WindowsClient.utoc",
+        "guid": "3064E7FF7FD15A1F40230918DF236352",
+        "fileCount": 23,
+        "hasHighResTextures": false,
+        "size": {
+          "raw": 1817092,
+          "formatted": "1.7 MB"
+        }
+      }
+    ]
   },
   "Mappings": [
     {
-      "url": "https://halfheart.dev/fortnite-porting/api/v1/mappings/FortniteRelease-25.00-CL-25695576-Android_oo.usmap",
-      "fileName": "FortniteRelease-25.00-CL-25695576-Android_oo.usmap",
-      "length": "1171464",
-      "uploaded": "2023-06-09T11:37:00Z",
+      "url": "https://halfheart.dev/fortnite-porting/api/v1/mappings/++Fortnite+Release-25.20-CL-26474516-Android_oo.usmap",
+      "fileName": "++Fortnite+Release-25.20-CL-26474516-Android_oo.usmap",
+      "hash": "8021000e2426242716a3c6058b72d1796b122da7",
+      "length": 1183675,
+      "uploaded": "2023-07-26T12:42:18Z",
       "meta": {
-        "version": "++Fortnite+Release-25.00-CL-25695576-Android",
+        "version": "++Fortnite+Release-25.20-CL-26474516-Android",
         "compressionMethod": "Oodle",
         "platform": "Android"
       }
