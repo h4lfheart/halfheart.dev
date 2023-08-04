@@ -5,5 +5,19 @@
     "Title": "1.4.4 Update",
     "Contents": "IMPORTANT: I made some breaking changes to the blender plugin, please sync it and don't complain if you have issues, it's most likely your fault for not updating. :)",
     "IsActive": true
+  },
+  {
+    "PushedTime": "2023-08-04T01:43:21.7388213Z",
+    "Version": "All",
+    "Title": "Testing Multi-Broadcast System (Part One)",
+    "Contents": "This is the first of two pop-ups, you should see another right after this one !!",
+    "IsActive": true
+  },
+  {
+    "PushedTime": "2023-08-04T01:44:21.7388213Z",
+    "Version": "All",
+    "Title": "Testing Multi-Broadcast System (Part Two)",
+    "Contents": "This is the second pop-up!! Thanks for clicking through these, enjoy your day now. :)",
+    "IsActive": true
   }
 ]
