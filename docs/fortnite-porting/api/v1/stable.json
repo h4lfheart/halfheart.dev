@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.5",
-  "Changelog": "- Fix Emotes\n-Auto Extract Plugin Zips",
+  "Version": "1.4.6",
+  "Changelog": "- Fix Export Performance Issues",
   "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/release.zip"
 }
