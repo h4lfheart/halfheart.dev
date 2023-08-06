@@ -1,5 +1,5 @@
 {
-  "IsActive": false,
+  "IsActive": true,
   "AES": {
     "version": "25.20",
     "mainKey": "0x509E207822450F59C2CB383871FE947090F8C9516BA1124793F58931DA715024",
