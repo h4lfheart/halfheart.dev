@@ -1,5 +1,5 @@
 {
-  "Version": "1.4.4",
-  "Changelog": "- Gallery Tab 2.0\n- Spray Tab\n- Banner Tab\n- Multiple Encryption Keys for Custom Installation\n- Better StW Filters",
-  "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/FortnitePorting.exe"
+  "Version": "1.4.5",
+  "Changelog": "- Fix Emotes\n-Auto Extract Plugin Zips",
+  "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/release.zip"
 }
