@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.0",
-  "Changelog": "- Removed Stable/Experimental Update Modes\n- Fixed Missing Items/Consumables\n- Added Support for Flopper Eyes\n- Added Append All Shader Button\n- Added the Ability to Un-Sync Unreal Project",
+  "Version": "1.5.1",
+  "Changelog": "- Removed Stable/Experimental Update Modes\n- Fixed Missing Items/Consumables\n- Added Support for Flopper Eyes\n- Added Append All Shader Button\n- Added the Ability to Un-Sync Unreal Project\n- Fix Tasty Rig Scaling",
   "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/release.zip"
 }
