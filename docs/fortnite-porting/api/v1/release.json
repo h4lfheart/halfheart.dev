@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.2",
-  "Changelog": "- Fix Nanite Mesh Issues",
+  "Version": "1.5.3",
+  "Changelog": "- Tag Driven Style Support\n- Jump to Folder Button (Mesh Tab)\n- Lots of Bug Fixes",
   "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/release.zip"
 }
