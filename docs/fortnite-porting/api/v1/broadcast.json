@@ -4,6 +4,6 @@
     "Version": "All",
     "Title": "Fortnite Update 26.20",
     "Contents": "The AES and Mappings endpoints are still out of date, be patient for them to be updated for Fortnite Porting to work.",
-    "IsActive": true
+    "IsActive": false
   }
 ]
