@@ -1,0 +1,12 @@
+[
+  {
+    "Title": "Test Changelog",
+    "PublishTime": "2023-10-04T02:11:03",
+    "Text": "This is the first test of the changelog system!\nNewline?? Woah!!",
+    "Tags": [
+      "Test",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/assets/meow.png"
+  }
+]
