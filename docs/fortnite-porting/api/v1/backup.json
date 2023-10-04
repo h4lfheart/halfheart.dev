@@ -1,8 +1,8 @@
 {
   "IsActive": false,
   "AES": {
-    "version": "25.30",
-    "mainKey": "0x198F5F1E8649B1B3B0E1F8E808DCFF240E838D2A7E24940D1082D843DCDF68F0",
+    "version": "26.10",
+    "mainKey": "0xA97CAD008AB57725B8AC6838EA5E8432E9CC888A6E5D739671ABFA3DA8C97D94",
     "dynamicKeys": [
       {
         "name": "pakchunk1000-WindowsClient.utoc",
@@ -162,18 +162,5 @@
       }
     ]
   },
-  "Mappings": [
-    {
-      "url": "https://www.halfheart.dev/fortnite-porting/api/v1/mappings/++Fortnite+Release-25.30-CL-26867995-Android_oo.usmap",
-      "fileName": "++Fortnite+Release-25.30-CL-26867995-Android_oo.usmap",
-      "hash": "42494dc82621274b4602b0a9992deb490ea7d453",
-      "length": 1185624,
-      "uploaded": "2023-08-08T09:08:20Z",
-      "meta": {
-        "version": "++Fortnite+Release-25.30-CL-26867995-Android",
-        "compressionMethod": "Oodle",
-        "platform": "Android"
-      }
-    }
-  ]
+  "Mappings": [{"url":"https://fortnitecentral.genxgames.gg/api/download/dc2c25ad28ac547f152de3e38ac042f36e7d8845/Android/++Fortnite+Release-26.10-CL-27665530-Android_oo.usmap","fileName":"++Fortnite+Release-26.10-CL-27665530-Android_oo.usmap","hash":"dc2c25ad28ac547f152de3e38ac042f36e7d8845","length":1206873,"uploaded":"2023-09-12T08:47:15Z","meta":{"version":"++Fortnite+Release-26.10-CL-27665530-Android","compressionMethod":"Oodle","platform":"Android"}}]
 }
