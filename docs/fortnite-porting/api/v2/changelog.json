@@ -1,30 +1,11 @@
 [
   {
-    "Title": "Meow",
-    "PublishTime": "2023-10-03",
-    "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Title": "FortnitePortng Update 2.0.0-beta",
+    "PublishDate": "2023-10-05",
+    "Text": "The first beta of FortnitePorting 2.0 has finally been released! Make sure to check out all of the new features and report any issues you're having in the support server!",
     "Tags": [
-      "Meow"
+      "Update"
     ],
-    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/assets/meow.png"
-  },
-  {
-    "Title": "Long Changelog",
-    "PublishTime": "2023-10-29",
-    "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec enim diam vulputate ut pharetra sit. Nunc non blandit massa enim nec dui nunc mattis. Diam donec adipiscing tristique risus nec feugiat. Donec massa sapien faucibus et. Amet volutpat consequat mauris nunc congue nisi vitae. Cursus turpis massa tincidunt dui ut ornare. Aliquam purus sit amet luctus. Suscipit adipiscing bibendum est ultricies integer quis auctor. Platea dictumst quisque sagittis purus sit amet volutpat consequat. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris. Est sit amet facilisis magna etiam tempor orci eu. Tincidunt dui ut ornare lectus sit amet est. Morbi tristique senectus et netus et malesuada fames ac. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Vehicula ipsum a arcu cursus vitae.\nSem viverra aliquet eget sit amet tellus cras. Tristique nulla aliquet enim tortor at auctor urna. Quisque egestas diam in arcu cursus euismod quis. Pretium fusce id velit ut. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Vestibulum sed arcu non odio euismod. Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Tincidunt ornare massa eget egestas. Feugiat vivamus at augue eget arcu dictum varius duis. Sollicitudin aliquam ultrices sagittis orci a. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Aliquet eget sit amet tellus cras adipiscing enim eu.",
-    "Tags": [
-      "Long",
-      "Test"
-    ],
-    "ImageURL": "https://pbs.twimg.com/profile_banners/988173832296058880/1678489625"
-  },
-  {
-    "Title": "Hamburger",
-    "PublishTime": "2022-06-26",
-    "Text": "I eat the burger.",
-    "Tags": [
-      "Burger"
-    ],
-    "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hamburger_%28black_bg%29.jpg/640px-Hamburger_%28black_bg%29.jpg"
+    "ImageURL": "https://pbs.twimg.com/media/F7Zb7V7boAAWTyi?format=jpg"
   }
 ]
