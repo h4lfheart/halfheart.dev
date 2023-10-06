@@ -1,0 +1,23 @@
+[
+  {
+    "Title": "FortnitePorting 2.0.0-beta",
+    "PublishDate": "2023-10-05",
+    "Text": "The first beta of FortnitePorting 2.0 has finally been released! Make sure to check out all of the new features and report any issues you're having in the support server!",
+    "Tags": [
+      "Update",
+      "Beta"
+    ],
+    "ImageURL": "https://pbs.twimg.com/media/F7Zb7V7boAAWTyi?format=jpg"
+  },
+  {
+    "Title": "Meow",
+    "PublishDate": "2023-10-06",
+    "Text": "New update featuring ganymede the cat! Cats are so cool! I wish cats were real.",
+    "Tags": [
+      "Meow",
+      "Cat",
+      "Ganymede"
+    ],
+    "ImageURL": "https://pbs.twimg.com/media/FBiqQM5XEAIh8Mi?format=jpg"
+  }
+]
