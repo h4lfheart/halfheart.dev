@@ -1,4 +1,12 @@
-﻿{
-  "Artist": "Half",
-  "ImageURL": "https://pbs.twimg.com/media/FVjOHcnWIAQUawO?format=jpg" 
-}
+[
+  {
+    "Artist": "Half",
+    "ImageURL": "https://pbs.twimg.com/media/FVjOHcnWIAQUawO?format=jpg",
+    "SocialsURL": "https://twitter.com/HalfHeart"
+  },
+  {
+    "Artist": "Lawy",
+    "ImageURL": "https://pbs.twimg.com/media/F8LoIHxW0AA1tfF?format=jpg",
+    "SocialsURL": "https://twitter.com/Lawy3D"
+  }
+]
