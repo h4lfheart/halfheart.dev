@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.7",
-  "Changelog": "- Temporary Removal of Metahuman Faces and Animations",
+  "Version": "1.5.8",
+  "Changelog": "- Support for new OnDemand cosmetic streaming system",
   "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/release.zip"
 }
