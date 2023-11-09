@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.8",
-  "Changelog": "- Support for new OnDemand cosmetic streaming system",
+  "Version": "1.5.9",
+  "Changelog": "- Raise OnDemand timeout because y'all's wifis are slow as heck !!",
   "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/release.zip"
 }
