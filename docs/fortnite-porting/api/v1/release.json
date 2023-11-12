@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.9",
-  "Changelog": "- Raise OnDemand timeout because y'all's wifis are slow as heck !!",
+  "Version": "1.5.10",
+  "Changelog": "- Animations Fixed",
   "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/release.zip"
 }
