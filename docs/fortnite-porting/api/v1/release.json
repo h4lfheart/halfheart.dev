@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.11",
-  "Changelog": "- Music Packs Fixed\n-Emote Sounds Fixed",
+  "Version": "1.5.12",
+  "Changelog": "- Fixed OnDemand Loading",
   "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/release.zip"
 }
