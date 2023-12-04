@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.12",
-  "Changelog": "- Fixed OnDemand Loading",
+  "Version": "1.5.13",
+  "Changelog": "- Fixed Empty Trap Export\n- Support New Mappings Property Type",
   "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/release.zip"
 }
