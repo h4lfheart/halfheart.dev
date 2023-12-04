@@ -1,5 +1,5 @@
 {
-  "IsActive": true,
+  "IsActive": false,
   "AES": {
     "version": "28.00",
     "mainKey": "0xA97CAD008AB57725B8AC6838EA5E8432E9CC888A6E5D739671ABFA3DA8C97D94",
@@ -570,13 +570,13 @@
   },
   "Mappings": [
     {
-      "url": "https://halfheart.dev/fortnite-porting/api/v1/mappings/++Fortnite+Release-28.00-CL-29915848-Shipping-Android.usmap",
-      "fileName": "++Fortnite+Release-28.00-CL-29915848-Shipping-Android.usmap",
+      "url": "https://halfheart.dev/fortnite-porting/api/v1/mappings/Fortnite+Release-28.00-CL-29915848-Shipping-Android.usmap",
+      "fileName": "Fortnite+Release-28.00-CL-29915848-Shipping-Android.usmap",
       "hash": "b44185ec514c61e8f0dd26039fbea61e0cc6fb60e69db64ce77ed90724fdcdfb",
       "length": 4368680,
       "uploaded": "2023-12-03T14:36:56Z",
       "meta": {
-        "version": "++Fortnite+Release-28.00-CL-29915848-Android",
+        "version": "Fortnite+Release-28.00-CL-29915848-Android",
         "compressionMethod": "Oodle",
         "platform": "Android"
       }
