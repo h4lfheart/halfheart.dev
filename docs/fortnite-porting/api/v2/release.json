@@ -1,0 +1,14 @@
+{
+  "Version": "v2.0.0.ea-9",
+  "DownloadUrl": "https://halfheart.dev/fortnite-porting/api/v2/FortnitePorting.exe",
+  "Dependencies": [
+    {
+      "Name": ".NET Runtime",
+      "URL": "https://aka.ms/dotnet/8.0/dotnet-runtime-win-x64.exe"
+    },
+    {
+      "Name": "Visual C++ Redistributable",
+      "URL": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+    }
+  ]
+}
