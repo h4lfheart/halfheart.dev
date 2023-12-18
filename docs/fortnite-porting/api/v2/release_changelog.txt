@@ -1,0 +1,5 @@
+FortnitePorting v2.0.0-beta1 Changelog:
+- New Features
+- Cool In-App Updater
+- Free Ice Cream
+- And Lots More !!
