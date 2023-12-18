@@ -5,5 +5,12 @@
     "Title": "happy mondee",
     "Contents": "ik its a poopy monday morning but you got this!! go you!! you can do this!! ♥️♥️♥️",
     "IsActive": true
+  },
+  {
+    "PushedTime": "2023-12-18",
+    "Version": "All",
+    "Title": "also important reminder",
+    "Contents": "please dont use blender 4.0 or higher, it is not supported. fnporting v2 will be 4.0+ so pls stay tuned for the open beta coming soon!!",
+    "IsActive": true
   }
 ]
