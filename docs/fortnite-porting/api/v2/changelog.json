@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.0.0-beta2",
+    "PublishDate": "2023-12-27",
+    "Text": "- Initial Foliage Support\n- Tab-Independent Search Filter\n- Reoriented Bones Support",
+    "Tags": [
+      "Update",
+      "Beta"
+    ],
+    "ImageURL": "https://pbs.twimg.com/media/F7Zb7V7boAAWTyi?format=jpg"
+  },
+  {
     "Title": "FortnitePorting v2.0.0-beta1",
     "PublishDate": "2023-12-18",
     "Text": "The first official beta release of Fortnite Porting V2 is finally here!!",
