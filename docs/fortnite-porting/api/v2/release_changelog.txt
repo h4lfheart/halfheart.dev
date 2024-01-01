@@ -1,3 +1,2 @@
-- Initial Foliage Support
-- Tab-Independent Search Filter
-- Reoriented Bones Support
+- Tasty Rig
+- Theme Support
