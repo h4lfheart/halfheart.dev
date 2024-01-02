@@ -1,5 +1,5 @@
 {
-  "Version": "1.5.13",
-  "Changelog": "- Fixed Empty Trap Export\n- Support New Mappings Property Type",
+  "Version": "1.6.0",
+  "Changelog": "- Support for Blender 4.0",
   "DownloadURL": "https://halfheart.dev/fortnite-porting/api/v1/release.zip"
 }
