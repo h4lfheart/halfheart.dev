@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.0.0-beta4",
+    "PublishDate": "2024-01-02",
+    "Text": "- Reset Settings Button\n- Tasty Rig Fixes\n- Blender Export Options Finished\n- LOD Support",
+    "Tags": [
+      "Update",
+      "Beta"
+    ],
+    "ImageURL": "https://pbs.twimg.com/media/F7Zb7V7boAAWTyi?format=jpg"
+  },
+  {
     "Title": "FortnitePorting v2.0.0-beta3",
     "PublishDate": "2024-01-01",
     "Text": "Happy New Years Everyone!! We're getting super close to an official release so this update is a small but important one!!\n- Tasty Rig\n- Theme Support",

@@ -1,2 +1,4 @@
-- Tasty Rig
-- Theme Support
+- Reset Settings Button
+- Tasty Rig Fixes
+- Blender Export Options Finished
+- LOD Support
