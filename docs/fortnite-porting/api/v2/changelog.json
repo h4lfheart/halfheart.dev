@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.0.0.beta5",
+    "PublishDate": "2024-01-03",
+    "Text": "- Gradient Skin Support\n- Auto Sync Blender Plugin\n- Discord RPC\n- Bug Fixes\n",
+    "Tags": [
+      "Update",
+      "Beta"
+    ],
+    "ImageURL": "https://pbs.twimg.com/media/F7Zb7V7boAAWTyi?format=jpg"
+  },
+  {
     "Title": "FortnitePorting v2.0.0-beta4",
     "PublishDate": "2024-01-02",
     "Text": "- Reset Settings Button\n- Tasty Rig Fixes\n- Blender Export Options Finished\n- LOD Support",

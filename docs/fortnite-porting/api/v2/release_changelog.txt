@@ -1,4 +1,4 @@
-- Reset Settings Button
-- Tasty Rig Fixes
-- Blender Export Options Finished
-- LOD Support
+- Gradient Skin Support
+- Auto Sync Blender Plugin
+- Discord RPC
+- Bug Fixes

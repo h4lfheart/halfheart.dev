@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.0-beta4",
+  "Version": "2.0.0.beta5",
   "DownloadUrl": "https://halfheart.dev/fortnite-porting/api/v2/FortnitePorting.exe",
   "ChangelogUrl": "https://halfheart.dev/fortnite-porting/api/v2/release_changelog.txt",
   "IsMandatory": false,
