@@ -1,12 +1,17 @@
 [
   {
     "Artist": "Half",
-    "ImageURL": "https://pbs.twimg.com/media/F_eyWi6WsAAw_hC?format=jpg",
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/featured-art/Half.png",
     "SocialsURL": "https://twitter.com/HalfHeart"
   },
   {
     "Artist": "Lawy",
-    "ImageURL": "https://pbs.twimg.com/media/F8LoIHxW0AA1tfF?format=jpg",
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/featured-art/Lawy.jpg",
     "SocialsURL": "https://twitter.com/Lawy3D"
+  },
+  {
+    "Artist": "Polaq",
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/featured-art/Polaq.jpg",
+    "SocialsURL": "https://twitter.com/polaqwym"
   }
 ]

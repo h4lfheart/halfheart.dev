@@ -1,4 +1,7 @@
-- Gradient Skin Support
-- Auto Sync Blender Plugin
-- Discord RPC
-- Bug Fixes
+- Texture Import Support (Blender Data or Plane)
+- Toggle Console
+- Open Logs Button (Settings Tab)
+- Weapon Mods Tab
+- Export Performance Improvements
+- Full Radio Tab Support (ADPCM, Save, Search)
+- Asset Size Option

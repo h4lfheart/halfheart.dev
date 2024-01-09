@@ -1,52 +1,12 @@
 [
   {
-    "Title": "FortnitePorting v2.0.0.beta5",
-    "PublishDate": "2024-01-03",
-    "Text": "- Gradient Skin Support\n- Auto Sync Blender Plugin\n- Discord RPC\n- Bug Fixes\n",
+    "Title": "FortnitePorting v2.0.0.release-candidate",
+    "PublishDate": "2024-01-08",
+    "Text": "Final pre-release before the official release. All new features are now finalized until post v2.0.0.",
     "Tags": [
       "Update",
-      "Beta"
+      "Release-Candidate"
     ],
-    "ImageURL": "https://pbs.twimg.com/media/F7Zb7V7boAAWTyi?format=jpg"
-  },
-  {
-    "Title": "FortnitePorting v2.0.0-beta4",
-    "PublishDate": "2024-01-02",
-    "Text": "- Reset Settings Button\n- Tasty Rig Fixes\n- Blender Export Options Finished\n- LOD Support",
-    "Tags": [
-      "Update",
-      "Beta"
-    ],
-    "ImageURL": "https://pbs.twimg.com/media/F7Zb7V7boAAWTyi?format=jpg"
-  },
-  {
-    "Title": "FortnitePorting v2.0.0-beta3",
-    "PublishDate": "2024-01-01",
-    "Text": "Happy New Years Everyone!! We're getting super close to an official release so this update is a small but important one!!\n- Tasty Rig\n- Theme Support",
-    "Tags": [
-      "Update",
-      "Beta"
-    ],
-    "ImageURL": "https://pbs.twimg.com/media/F7Zb7V7boAAWTyi?format=jpg"
-  },
-  {
-    "Title": "FortnitePorting v2.0.0-beta2",
-    "PublishDate": "2023-12-27",
-    "Text": "- Initial Foliage Support\n- Tab-Independent Search Filter\n- Reoriented Bones Support",
-    "Tags": [
-      "Update",
-      "Beta"
-    ],
-    "ImageURL": "https://pbs.twimg.com/media/F7Zb7V7boAAWTyi?format=jpg"
-  },
-  {
-    "Title": "FortnitePorting v2.0.0-beta1",
-    "PublishDate": "2023-12-18",
-    "Text": "The first official beta release of Fortnite Porting V2 is finally here!!",
-    "Tags": [
-      "Update",
-      "Beta"
-    ],
-    "ImageURL": "https://pbs.twimg.com/media/F7Zb7V7boAAWTyi?format=jpg"
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixing.jpg"
   }
 ]
