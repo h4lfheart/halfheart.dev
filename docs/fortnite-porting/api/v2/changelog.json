@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.0.2",
+    "PublishDate": "2024-01-14",
+    "Text": "Just a small little patch to fix Blender syncing issues. Along with this there's support for AdditionalWorlds in .umap export. I don't think this is helpful on latest but it's important for pre ue5 versions of Fortnite.",
+    "Tags": [
+      "Patch",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixed.jpg"
+  },
+  {
     "Title": "FortnitePorting v2.0.1",
     "PublishDate": "2024-01-14",
     "Text": "Essentially just fixes a lot of the bugs from the official release.\nA few notable features for this update include:\n- Layered Background Diffuse\n- Layered Alpha\n- Finger IK Controls",
