@@ -1,12 +1,11 @@
 [
   {
-    "Title": "FortnitePorting v2.0.0.release-candidate",
-    "PublishDate": "2024-01-08",
-    "Text": "Final pre-release before the official release. All new features are now finalized until post v2.0.0.",
+    "Title": "FortnitePorting v2.0.0",
+    "PublishDate": "2024-01-13",
+    "Text": "Fortnite Porting v2 is finally here!! Enjoy all the new features and make sure to make a support ticket if you're having any issues. <3",
     "Tags": [
-      "Update",
-      "Release-Candidate"
+      "Release"
     ],
-    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixing.jpg"
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Info.jpg"
   }
 ]
