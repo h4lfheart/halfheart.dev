@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.0.3",
+    "PublishDate": "2024-01-17",
+    "Text": "For those of you that complained, individual bone rotation for FK fingers on the Tasty Rig are now working.",
+    "Tags": [
+      "Patch",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixed.jpg"
+  },
+  {
     "Title": "FortnitePorting v2.0.2",
     "PublishDate": "2024-01-14",
     "Text": "Just a small little patch to fix Blender syncing issues. Along with this there's support for AdditionalWorlds in .umap export. I don't think this is helpful on latest but it's important for pre ue5 versions of Fortnite.",
