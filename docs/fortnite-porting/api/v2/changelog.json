@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.0.4",
+    "PublishDate": "2024-01-22",
+    "Text": "Just a small little feature update!!\nFeatures:\n- Lobby Pose Export\n- 3D Cursor Spawn Location Option\n- Toggle Dynamic Bone Shape Option\n- Prefab/Gallery Filters\n- Loop Animations (WIP)\n- Fish Eye Textures\n\nTweaks\n- Rarity Color Accuracy\n- Asset Type Selection\n- Filter Panel\n\nBug Fixes:\n- Fix Same-Name Material Overrides\n- Infinite Looping Emotes (Shout)\n- Radio Tab Issues",
+    "Tags": [
+      "Minor",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixed.jpg"
+  },
+  {
     "Title": "FortnitePorting v2.0.3",
     "PublishDate": "2024-01-17",
     "Text": "For those of you that complained, individual bone rotation for FK fingers on the Tasty Rig are now working.",

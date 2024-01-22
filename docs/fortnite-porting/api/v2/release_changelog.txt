@@ -1,0 +1,17 @@
+Features:
+- Lobby Pose Export
+- 3D Cursor Spawn Location Option
+- Toggle Dynamic Bone Shape Option
+- Prefab/Gallery Filters
+- Loop Animations (WIP)
+- Fish Eye Textures
+
+Tweaks
+- Rarity Color Accuracy
+- Asset Type Selection
+- Filter Panel
+
+Bug Fixes:
+- Fix Same-Name Material Overrides
+- Infinite Looping Emotes (Shout)
+- Radio Tab Issues
