@@ -1,5 +1,15 @@
 [
   {
+    "Title": "Fortnite v28.20 Issues",
+    "PublishDate": "2024-02-06",
+    "Text": "Yes, Fortnite Porting is currently not working on Fortnite v28.20. Mappings and AES Keys aren't updated for this version yet so we all must wait until they are pushed to the API.",
+    "Tags": [
+      "Status Update",
+      "Fortnite Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Broken.jpg"
+  },
+  {
     "Title": "FortnitePorting v2.0.4",
     "PublishDate": "2024-01-22",
     "Text": "Just a small little feature update!!\nFeatures:\n- Lobby Pose Export\n- 3D Cursor Spawn Location Option\n- Toggle Dynamic Bone Shape Option\n- Prefab/Gallery Filters\n- Loop Animations (WIP)\n- Fish Eye Textures\n\nTweaks\n- Rarity Color Accuracy\n- Asset Type Selection\n- Filter Panel\n\nBug Fixes:\n- Fix Same-Name Material Overrides\n- Infinite Looping Emotes (Shout)\n- Radio Tab Issues",
