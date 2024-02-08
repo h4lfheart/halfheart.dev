@@ -1,13 +1,13 @@
 [
   {
-    "Title": "Fortnite v28.20 Issues",
-    "PublishDate": "2024-02-06",
-    "Text": "Yes, Fortnite Porting is currently not working on Fortnite v28.20. Mappings and AES Keys aren't updated for this version yet so we all must wait until they are pushed to the API.",
+    "Title": "FortnitePorting v2.0.5",
+    "PublishDate": "2024-02-08",
+    "Text": "Fixes issues for Fortnite v28.20, adds the backup API back, and has more descriptive error messages. (If you are encountering any stupid errors still, make a support ticket and I will make em more descript)",
     "Tags": [
-      "Status Update",
-      "Fortnite Update"
+      "Patch",
+      "Update"
     ],
-    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Broken.jpg"
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixing.jpg"
   },
   {
     "Title": "FortnitePorting v2.0.4",
