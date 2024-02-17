@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.0.6",
+    "PublishDate": "2024-02-16",
+    "Text": "A bunch of little QoL features. Nothing much new other than a UEFN map loading toggle, item filters, and Blender sound export. Tasty rig is fixed on 100x scale and custom export path works again. (or for the first time since it's always been broken? lol)",
+    "Tags": [
+      "Minor",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixed.jpg"
+  },
+  {
     "Title": "FortnitePorting v2.0.5",
     "PublishDate": "2024-02-08",
     "Text": "Fixes issues for Fortnite v28.20, adds the backup API back, and has more descriptive error messages. (If you are encountering any stupid errors still, make a support ticket and I will make em more descript)",
