@@ -1,6 +1,16 @@
 [
   {
     "Title": "FortnitePorting v2.0.8",
+    "PublishDate": "2024-03-08",
+    "Text": "Fixes static meshes and .umap export for the newest Fortnite season. For once Fortnite Porting got fixed before the servers are up!! (jk love u epic games)",
+    "Tags": [
+      "Patch",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixed.jpg"
+  },
+  {
+    "Title": "FortnitePorting v2.0.7",
     "PublishDate": "2024-02-22",
     "Text": "A small patch update to load all mappings types instead of just Oodle.",
     "Tags": [
