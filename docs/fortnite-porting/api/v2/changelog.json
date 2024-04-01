@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.0.9",
+    "PublishDate": "2024-03-31",
+    "Text": "Just an update for some general application improvements!! Adds song shuffling, more weapon filters, and fixes some bugs with .umap import.",
+    "Tags": [
+      "Patch",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/BrokenFlipped.png"
+  },
+  {
     "Title": "FortnitePorting v2.0.8",
     "PublishDate": "2024-03-08",
     "Text": "Fixes static meshes and .umap export for the newest Fortnite season. For once Fortnite Porting got fixed before the servers are up!! (jk love u epic games)",
