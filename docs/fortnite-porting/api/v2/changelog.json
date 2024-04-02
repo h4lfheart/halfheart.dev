@@ -1,13 +1,14 @@
 [
   {
-    "Title": "IMPORTANT ANNOUNCEMENT!!",
-    "PublishDate": "2024-03-31",
-    "Text": "ALL VERSIONS V2.0.8 AND LOWER NEED TO UPDATE!!! API CHANGES BREAKING THEM SOON!!!! #FortnitePortingFlipped",
+    "Title": "FortnitePorting v2.0.10",
+    "PublishDate": "2024-04-01",
+    "Text": "Fixed the bug that caused the UI to rotate upside down.\n#FortnitePortingFlipped",
     "Tags": [
-      "Patch",
+      "April Fools",
+      "Minor",
       "Update"
     ],
-    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/BrokenFlipped.png"
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixed.jpg"
   },
   {
     "Title": "FortnitePorting v2.0.8",
