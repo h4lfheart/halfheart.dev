@@ -1,3 +1,17 @@
 {
-  "Active": false
+  "Active": true,
+  "Data": [
+    {
+      "url": "https://halfheart.dev/fortnite-porting/api/v2/mappings/29.20-32716692-Windows_oo.usmap",
+      "fileName": "29.20-32716692-Windows_oo.usmap",
+      "hash": "346d88cf2e06a856e59d496f695ff227051babcd",
+      "length": 1661299,
+      "uploaded": "2024-04-09T6:50:00Z",
+      "meta": {
+        "version": "29.20-32716692-Windows_oo",
+        "compressionMethod": "Oodle",
+        "platform": "Windows"
+      }
+    }
+  ]
 }
