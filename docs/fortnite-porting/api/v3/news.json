@@ -1,8 +1,15 @@
 [
   {
-    "Title": "Update v3.0.1",
-    "SubTitle": "Bug Fixes",
-    "Description": "Fortnite Porting V3 is now in the works. More features coming soon...",
+    "Title": "Update v3.0.0.1",
+    "SubTitle": "Cheese Glitch Fix",
+    "Description": "Fixes a major bug where it would only export cheese.",
+    "Date": "04-24-2024",
+    "Image": "https://cdn.discordapp.com/attachments/1133130588287680534/1232516532479852644/image.png?ex=6629bdf8&is=66286c78&hm=e99115462b15e1b176cc22d853bcf0061144b7d8fdc1ef219c6c7b5cfdbbb7ed&"
+  },
+  {
+    "Title": "Update v3.0.0",
+    "SubTitle": "Fortnite Porting V3 Launch",
+    "Description": "Fortnite Porting V3 is now here!!",
     "Date": "04-23-2024",
     "Image": "https://cdn.discordapp.com/attachments/1023792227241173142/1231445767332560946/image.png?ex=6629247e&is=6627d2fe&hm=74325d0d52b883acf49beaffff561d684205e4838b596f73dfc94d851b0ac777&"
   }
