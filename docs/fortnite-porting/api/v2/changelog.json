@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.1.0",
+    "PublishDate": "2024-04-28",
+    "Text": "Big feature update incoming!! Facial Poses/Animations are finally back along with a new WIP texture viewer and support for SVT texture export!!",
+    "Tags": [
+      "Major",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixed.jpg"
+  },
+  {
     "Title": "FortnitePorting v2.0.10",
     "PublishDate": "2024-04-01",
     "Text": "Fixed the bug that caused the UI to rotate upside down.\n#FortnitePortingFlipped",
