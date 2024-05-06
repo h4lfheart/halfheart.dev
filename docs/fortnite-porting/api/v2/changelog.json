@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.1.2",
+    "PublishDate": "2024-05-06",
+    "Text": "Adds a mappings toggle for custom install mode and fixes stw skins, resources, and metahuman facial pose jaws.",
+    "Tags": [
+      "Patch",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixing.jpg"
+  },
+  {
     "Title": "FortnitePorting v2.1.1",
     "PublishDate": "2024-04-28",
     "Text": "Fixes importing non-character assets.",
