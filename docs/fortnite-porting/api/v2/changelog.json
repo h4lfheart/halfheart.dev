@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.1.4",
+    "PublishDate": "2024-05-10",
+    "Text": "Fixed most shape keys not importing for characters.",
+    "Tags": [
+      "Patch",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Broken.jpg"
+  },
+  {
     "Title": "FortnitePorting v2.1.3",
     "PublishDate": "2024-05-06",
     "Text": "Fixed an infinite loop bug when importing metahuman skins.",
