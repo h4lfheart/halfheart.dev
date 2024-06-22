@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.1.11",
+    "PublishDate": "2024-06-22",
+    "Text": "Fixes for Fortnite v30.20",
+    "Tags": [
+      "Patch",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixed.jpg"
+  },
+  {
     "Title": "FortnitePorting v2.1.10",
     "PublishDate": "2024-05-27",
     "Text": "Official fix for Fortnite v30.10",
