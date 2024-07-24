@@ -1,5 +1,15 @@
 [
   {
+    "Title": "FortnitePorting v2.1.13",
+    "PublishDate": "2024-07-23",
+    "Text": "Beans.",
+    "Tags": [
+      "Patch",
+      "Update"
+    ],
+    "ImageURL": "https://halfheart.dev/fortnite-porting/api/v2/changelog-icons/Fixed.jpg"
+  },
+  {
     "Title": "FortnitePorting v2.1.12",
     "PublishDate": "2024-06-22",
     "Text": "Fixes for Fortnite v30.20",
